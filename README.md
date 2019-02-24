@@ -61,7 +61,7 @@ This directory contains the tests for our program. We have tests for the code in
 
 Before we worry about building the CLI, we need to build the core functionality of our program––that is, the actions that will be carried out once we obtain the user's input. That code belongs in the `lib` directory.
 
-Open up `lib/greeting.rb`. This is where we'll be writing our code. This part of the lab is test-driven. So, run the test for *just this section* by typing `learn spec/01_greeting_spec.rb` in your terminal.
+Open up `lib/greeting.rb`. This is where we'll be writing our code. This part of the lab is test-driven. So, run the test for *just this section* by typing `board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]` in your terminal.
 
 In order to get our tests passing, we'll need to define a method, `#greeting` that takes in an argument of a person's name and uses string interpolation to print `"Hello #{name}. It's nice to meet you."`.
 
